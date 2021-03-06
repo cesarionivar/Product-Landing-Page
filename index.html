@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header container">
+            <div id="header-logo">
+                <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="Logo">
+            </div>
+            <nav id="nav-bar">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-works" class="nav-link">How It Works</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <iframe id="video" width="800" height="405" src="https://www.youtube.com/embed/OtF7gygZdss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2 class="section__title">Suscribe to get notifications</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST"> 
+            <input type="email" name="email" id="email" placeholder="Enter your email" required title="Ingresa un email válido">
+            <input type="submit" value="Suscribe" id="submit">
+        </form>
+        <div id="features" class="features container">
+            <h2 class="section__title">Features</h2>
+            <div class="features__container">
+                <div class="feature">
+                    <img src="https://placeimg.com/640/480/tech" alt="Tech">
+                    <p>Tech</p>
+                </div>
+                <div class="feature">
+                    <img src="https://placeimg.com/640/480/arch" alt="Architecture">
+                    <p>Architecture</p>
+                </div>
+                <div class="feature">
+                    <img src="https://placeimg.com/640/480/nature" alt="Nature">
+                    <p>Nature</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="how-works">
+            <h2 class="section__title">How it works?</h2>
+            <div class="works">
+                <div class="info">
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </div>
+            <div class="works">
+                <div class="info">
+                    <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied. </p>
+                </div>
+            </div>
+            <div class="works">
+                <div class="info">
+                    <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument. </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="pricing">
+            <h2 class="section__title">Pricing</h2>
+            <div class="pricing__container">
+                <div class="basic">
+                    <h2 title="">Tenor Trombone</h2>
+                    <p class="price">$600</p>
+                    <div class="details">
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="extend">
+                    <h2 title="">Bass Trombone</h2>
+                    <p class="price">$900</p>
+                    <div class="details">
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="premium">
+                    <h2 title="">Valve Trombone</h2>
+                    <p class="price">$1200</p>
+                    <div class="details">
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <button class="btn">Select</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container">
+        <p>Cesario Nivar &copy; 2021</p>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
